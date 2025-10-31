@@ -59,18 +59,3 @@
   object-fit: cover;
   filter: sepia(0.5);
 }
-
-.carousel-switch-button {
-  padding: 10px 20px;
-  font-size: 16px;
-  border-radius: 10px;
-  border: none;
-  background-color: #281033;
-  color: #edc6ff;
-  cursor: pointer;
-}
-
-.carousel-switch-button:hover {
-  background-color: #d39bec;
-  color: #783497;
-}
