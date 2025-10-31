@@ -1,0 +1,46 @@
+/* HOME PAGE */
+#home-page {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 40px;
+}
+
+/* MOVIES SECTION */
+#movies-section {
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+}
+#control-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: auto;
+  height: 100vh;
+  max-width: fit-content;
+  max-height: 100vh;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px #a94ed3;
+  background-color: #281033;
+}
+
+#movies-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: fit-content;
+  max-width: fit-content;
+  height: auto;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: end;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 8px 0px #a94ed3;
+  background-color: #281033;
+}
+#movies-wrapper li {
+  display: flex;
+}
