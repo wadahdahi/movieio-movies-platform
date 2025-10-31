@@ -6,7 +6,7 @@ function App() {
   return (
     <>
       <header id="header">
-        <h1 id="logo">Movieio</h1>
+        <h1 id="logo">MovieIO</h1>
         <Navbar
           id="main-navbar"
           links={[
